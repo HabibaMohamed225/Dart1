@@ -1,0 +1,9 @@
+import 'dart:math';
+
+void main() {
+  final rand = Random();
+  final list = List.generate(10, (_) => rand.nextInt(100));
+
+  print(list);
+  print([list.first, list.last]);
+}
