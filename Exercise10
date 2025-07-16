@@ -1,0 +1,8 @@
+import 'dart:io';
+import 'dart:math';
+void main() {
+  stdout.write("ُEnter the word: ");
+  String word = stdin.readLineSync()!.toLowerCase();
+  String rev = word.split('').reversed.join('');
+  word==rev ? print("$word is palindrome"): print("$word is not a palindrome");
+}
