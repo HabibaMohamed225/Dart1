@@ -1,0 +1,8 @@
+Makes the variable's value null, even if you don't write it next to the type. Then, making the variable null will produce an error
+void main() {
+  int? num;
+  num = 10;
+  print(num);
+  num = null;
+  print(num);
+}
