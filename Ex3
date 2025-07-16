@@ -1,0 +1,6 @@
+void main() {
+String? name;
+  print(name);
+  name = null;
+  print(name);
+}
