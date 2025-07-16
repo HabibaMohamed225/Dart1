@@ -1,0 +1,11 @@
+dynamic? fun(var num) {
+  num ??= 0;
+  return num;
+}
+
+void main() {
+  dynamic n = null;
+  print(fun(n));
+  n = 10;
+  print(fun(n));
+}
