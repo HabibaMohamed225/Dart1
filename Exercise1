@@ -1,0 +1,11 @@
+void main() {
+var name;
+  int age;
+  print("Enter your name:");
+  name = stdin.readLineSync();
+  print("Enter your age:");
+  age = int.parse(stdin.readLineSync()!);
+  print("Name: $name \n Age: $age");
+  var allAge = 100 - age;
+  print("The number of years to complete 100 years is:$allAge");
+}
