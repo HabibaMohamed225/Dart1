@@ -1,0 +1,15 @@
+void main(){
+void Prime(int n) {
+  List<int> a = [
+    for (var i = 1; i <= n; i++)
+      if (n % i == 0)
+       i
+  ];
+  a.length==2 ? print("The number is a prime") : print("The number is not a prime");
+}
+void main() {
+  print("ُEnter the number: ");
+  int number = int.parse(stdin.readLineSync()!);
+  Prime(number);
+}
+}
